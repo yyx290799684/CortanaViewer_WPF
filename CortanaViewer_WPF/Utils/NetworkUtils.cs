@@ -85,15 +85,15 @@ namespace CortanaViewer_WPF.Utils
             }
             else if (speed < 1024000)
             {
-                return string.Format("{0:F}", speed / 1024) + " kb/s";
+                return string.Format("{0:F}", speed / 1024) + " KB/s";
             }
             else if (speed < 1024000000)
             {
-                return string.Format("{0:F}", speed / 1024000) + " mb/s";
+                return string.Format("{0:F}", speed / 1024000) + " MB/s";
             }
             else
             {
-                return string.Format("{0:F}", speed / 1024000) + " mb/s";
+                return string.Format("{0:F}", speed / 1024000) + " MB/s";
             }
         }
 
